@@ -6,10 +6,10 @@
            review="" />
 
   <remote name="platform_frameworks_base" 
-          revision="android-5.0.2_r3"
+          revision="master"
           fetch="https://github.com/boworking/" />
 
-  <default revision="android-5.0.2_r3"
+  <default revision="master"
            remote="aosp"
            sync-j="4" />
 
