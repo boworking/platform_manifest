@@ -5,7 +5,7 @@
            fetch="https://android.googlesource.com/" />
 
   <remote name="platform_frameworks_base" 
-          revision="master"
+          revision="refs/tags/android-5.0.2_r3"
           fetch="https://github.com/boworking/" />
 
   <default revision="refs/tags/android-5.0.2_r3"
