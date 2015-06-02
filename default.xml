@@ -5,8 +5,8 @@
            fetch=".."
            review="" />
 
-  <remote name="afk" 
-          fetch="git@github.com:boworking/platform_frameworks_base.git" />
+  <remote name="platform_frameworks_base" 
+          fetch="https://github.com/boworking/platform_frameworks_base/tree/android-5.0.2_r3/" />
 
   <default revision="master"
            remote="aosp"
@@ -284,43 +284,43 @@
   <project path="external/zlib" name="platform/external/zlib" groups="pdk" />
   <project path="external/zopfli" name="platform/external/zopfli" groups="pdk-cw-fs" />
   <project path="external/zxing" name="platform/external/zxing" groups="pdk-cw-fs" />
-  <project path="frameworks/av" name="platform/frameworks/av" remote="afk" groups="pdk" />
-  <project path="frameworks/base" name="platform/frameworks/base" remote="afk" groups="pdk-cw-fs" />
-  <project path="frameworks/compile/libbcc" name="platform/frameworks/compile/libbcc" remote="afk" groups="pdk" />
-  <project path="frameworks/compile/mclinker" name="platform/frameworks/compile/mclinker" remote="afk" groups="pdk" />
-  <project path="frameworks/compile/slang" name="platform/frameworks/compile/slang" remote="afk" groups="pdk" />
-  <project path="frameworks/ex" name="platform/frameworks/ex" remote="afk" groups="pdk-cw-fs" />
-  <project path="frameworks/mff" name="platform/frameworks/mff" remote="afk" groups="pdk-cw-fs" />
-  <project path="frameworks/minikin" name="platform/frameworks/minikin" remote="afk" groups="pdk-cw-fs" />
-  <project path="frameworks/ml" name="platform/frameworks/ml" remote="afk" groups="pdk-cw-fs" />
-  <project path="frameworks/multidex" name="platform/frameworks/multidex" remote="afk" groups="pdk-cw-fs" />
-  <project path="frameworks/native" name="platform/frameworks/native" remote="afk" groups="pdk" />
-  <project path="frameworks/opt/bitmap" name="platform/frameworks/opt/bitmap" remote="afk" />
-  <project path="frameworks/opt/bluetooth" name="platform/frameworks/opt/bluetooth"remote="afk"  groups="pdk-cw-fs" />
-  <project path="frameworks/opt/calendar" name="platform/frameworks/opt/calendar" remote="afk" groups="pdk-cw-fs" />
-  <project path="frameworks/opt/carddav" name="platform/frameworks/opt/carddav" remote="afk"  groups="pdk-cw-fs" />
-  <project path="frameworks/opt/chips" name="platform/frameworks/opt/chips" remote="afk" groups="pdk-cw-fs" />
-  <project path="frameworks/opt/colorpicker" name="platform/frameworks/opt/colorpicker" remote="afk" groups="pdk-cw-fs" />
-  <project path="frameworks/opt/datetimepicker" name="platform/frameworks/opt/datetimepicker" remote="afk" groups="pdk-cw-fs" />
-  <project path="frameworks/opt/emoji" name="platform/frameworks/opt/emoji" remote="afk" groups="pdk-cw-fs" />
-  <project path="frameworks/opt/inputconnectioncommon" name="platform/frameworks/opt/inputconnectioncommon" remote="afk" />
-  <project path="frameworks/opt/inputmethodcommon" name="platform/frameworks/opt/inputmethodcommon" remote="afk" groups="pdk-cw-fs" />
-  <project path="frameworks/opt/mms" name="platform/frameworks/opt/mms" remote="afk" groups="pdk-cw-fs" />
-  <project path="frameworks/opt/net/ims" name="platform/frameworks/opt/net/ims" remote="afk" groups="frameworks_ims,pdk-cw-fs" />
-  <project path="frameworks/opt/net/voip" name="platform/frameworks/opt/net/voip" remote="afk" groups="pdk-cw-fs" />
-  <project path="frameworks/opt/net/wifi" name="platform/frameworks/opt/net/wifi" remote="afk" groups="pdk" />
-  <project path="frameworks/opt/net/ethernet" name="platform/frameworks/opt/net/ethernet" remote="afk" />
-  <project path="frameworks/opt/photoviewer" name="platform/frameworks/opt/photoviewer" remote="afk" groups="pdk-cw-fs" />
-  <project path="frameworks/opt/setupwizard" name="platform/frameworks/opt/setupwizard" remote="afk" groups="pdk-cw-fs" />
-  <project path="frameworks/opt/telephony" name="platform/frameworks/opt/telephony" remote="afk" groups="pdk" />
-  <project path="frameworks/opt/timezonepicker" name="platform/frameworks/opt/timezonepicker" remote="afk" groups="pdk-cw-fs" />
-  <project path="frameworks/opt/vcard" name="platform/frameworks/opt/vcard" remote="afk" groups="pdk-cw-fs" />
-  <project path="frameworks/opt/widget" name="platform/frameworks/opt/widget" remote="afk" groups="pdk-cw-fs" />
-  <project path="frameworks/rs" name="platform/frameworks/rs" remote="afk" groups="pdk" />
-  <project path="frameworks/support" name="platform/frameworks/support" remote="afk" groups="pdk-cw-fs" />
-  <project path="frameworks/volley" name="platform/frameworks/volley" remote="afk" groups="pdk-cw-fs" />
-  <project path="frameworks/webview" name="platform/frameworks/webview" remote="afk" groups="pdk-cw-fs" />
-  <project path="frameworks/wilhelm" name="platform/frameworks/wilhelm" remote="afk" groups="pdk-cw-fs" />
+  <project path="frameworks/av" name="platform/frameworks/av" remote="platform_frameworks_base" groups="pdk" />
+  <project path="frameworks/base" name="platform/frameworks/base" remote="platform_frameworks_base" groups="pdk-cw-fs" />
+  <project path="frameworks/compile/libbcc" name="platform/frameworks/compile/libbcc" remote="platform_frameworks_base" groups="pdk" />
+  <project path="frameworks/compile/mclinker" name="platform/frameworks/compile/mclinker" remote="platform_frameworks_base" groups="pdk" />
+  <project path="frameworks/compile/slang" name="platform/frameworks/compile/slang" remote="platform_frameworks_base" groups="pdk" />
+  <project path="frameworks/ex" name="platform/frameworks/ex" remote="platform_frameworks_base" groups="pdk-cw-fs" />
+  <project path="frameworks/mff" name="platform/frameworks/mff" remote="platform_frameworks_base" groups="pdk-cw-fs" />
+  <project path="frameworks/minikin" name="platform/frameworks/minikin" remote="platform_frameworks_base" groups="pdk-cw-fs" />
+  <project path="frameworks/ml" name="platform/frameworks/ml" remote="platform_frameworks_base" groups="pdk-cw-fs" />
+  <project path="frameworks/multidex" name="platform/frameworks/multidex" remote="platform_frameworks_base" groups="pdk-cw-fs" />
+  <project path="frameworks/native" name="platform/frameworks/native" remote="platform_frameworks_base" groups="pdk" />
+  <project path="frameworks/opt/bitmap" name="platform/frameworks/opt/bitmap" remote="platform_frameworks_base" />
+  <project path="frameworks/opt/bluetooth" name="platform/frameworks/opt/bluetooth"remote="platform_frameworks_base"  groups="pdk-cw-fs" />
+  <project path="frameworks/opt/calendar" name="platform/frameworks/opt/calendar" remote="platform_frameworks_base" groups="pdk-cw-fs" />
+  <project path="frameworks/opt/carddav" name="platform/frameworks/opt/carddav" remote="platform_frameworks_base"  groups="pdk-cw-fs" />
+  <project path="frameworks/opt/chips" name="platform/frameworks/opt/chips" remote="platform_frameworks_base" groups="pdk-cw-fs" />
+  <project path="frameworks/opt/colorpicker" name="platform/frameworks/opt/colorpicker" remote="platform_frameworks_base" groups="pdk-cw-fs" />
+  <project path="frameworks/opt/datetimepicker" name="platform/frameworks/opt/datetimepicker" remote="platform_frameworks_base" groups="pdk-cw-fs" />
+  <project path="frameworks/opt/emoji" name="platform/frameworks/opt/emoji" remote="platform_frameworks_base" groups="pdk-cw-fs" />
+  <project path="frameworks/opt/inputconnectioncommon" name="platform/frameworks/opt/inputconnectioncommon" remote="platform_frameworks_base" />
+  <project path="frameworks/opt/inputmethodcommon" name="platform/frameworks/opt/inputmethodcommon" remote="platform_frameworks_base" groups="pdk-cw-fs" />
+  <project path="frameworks/opt/mms" name="platform/frameworks/opt/mms" remote="platform_frameworks_base" groups="pdk-cw-fs" />
+  <project path="frameworks/opt/net/ims" name="platform/frameworks/opt/net/ims" remote="platform_frameworks_base" groups="frameworks_ims,pdk-cw-fs" />
+  <project path="frameworks/opt/net/voip" name="platform/frameworks/opt/net/voip" remote="platform_frameworks_base" groups="pdk-cw-fs" />
+  <project path="frameworks/opt/net/wifi" name="platform/frameworks/opt/net/wifi" remote="platform_frameworks_base" groups="pdk" />
+  <project path="frameworks/opt/net/ethernet" name="platform/frameworks/opt/net/ethernet" remote="platform_frameworks_base" />
+  <project path="frameworks/opt/photoviewer" name="platform/frameworks/opt/photoviewer" remote="platform_frameworks_base" groups="pdk-cw-fs" />
+  <project path="frameworks/opt/setupwizard" name="platform/frameworks/opt/setupwizard" remote="platform_frameworks_base" groups="pdk-cw-fs" />
+  <project path="frameworks/opt/telephony" name="platform/frameworks/opt/telephony" remote="platform_frameworks_base" groups="pdk" />
+  <project path="frameworks/opt/timezonepicker" name="platform/frameworks/opt/timezonepicker" remote="platform_frameworks_base" groups="pdk-cw-fs" />
+  <project path="frameworks/opt/vcard" name="platform/frameworks/opt/vcard" remote="platform_frameworks_base" groups="pdk-cw-fs" />
+  <project path="frameworks/opt/widget" name="platform/frameworks/opt/widget" remote="platform_frameworks_base" groups="pdk-cw-fs" />
+  <project path="frameworks/rs" name="platform/frameworks/rs" remote="platform_frameworks_base" groups="pdk" />
+  <project path="frameworks/support" name="platform/frameworks/support" remote="platform_frameworks_base" groups="pdk-cw-fs" />
+  <project path="frameworks/volley" name="platform/frameworks/volley" remote="platform_frameworks_base" groups="pdk-cw-fs" />
+  <project path="frameworks/webview" name="platform/frameworks/webview" remote="platform_frameworks_base" groups="pdk-cw-fs" />
+  <project path="frameworks/wilhelm" name="platform/frameworks/wilhelm" remote="platform_frameworks_base" groups="pdk-cw-fs" />
   <project path="hardware/akm" name="platform/hardware/akm" />
   <project path="hardware/broadcom/libbt" name="platform/hardware/broadcom/libbt" groups="pdk" />
   <project path="hardware/broadcom/wlan" name="platform/hardware/broadcom/wlan" groups="broadcom_wlan" />
